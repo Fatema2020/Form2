@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|DM+Serif+Text|Oswald&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  max-width: 100%;
+  display: block;
+ }
+a{
+  text-decoration: none;
+  display: block;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+}
+.one{
+    background-color: #93c779;
+    font-family: sans-serif;
+}
+
+nav ul{
+
+display: flex;
+
+justify-content: center;
+
+/* text-align: center; */
+
+align-items: center;
+}
+nav ul li{
+
+list-style: none;
+
+/* padding: 5px 12px; */
+
+text-transform: uppercase;
+
+display: block;
+
+/* justify-content: center; */
+
+cursor: pointer;
+}
+nav ul li a{
+
+display: block;
+
+color: #fff;
+
+justify-content: center;
+
+padding: 0px 15px;
+
+transition: all 0.4s ease;
+}
+nav ul li a img{
+
+width: 70px;
+
+/* color: #63f00b; */
+}
+.form{
+
+width: 70%;
+
+/* margin-left: auto; */
+
+/* align-content: center; */
+
+/* display: flex; */
+
+/* vertical-align: middle; */
+
+/* justify-content: center; */
+
+/* align-items: center; */
+
+background-color: #f2c5be;
+}
+.body{
+
+display: flex;
+
+/* width: 1000px; */
+
+/* justify-content: center; */
+
+/* flex: 0 0 50%; */
+
+/* font-size: 23px; */
+
+/* align-content: center; */
+
+/* height: 100vh; */
+
+/* margin: 91px auto; */
+}
+.two{
+    background-color: #9b67068f;
+    /* display: block; */
+    /* max-width: 400px; */
+    /* padding: 5px 10px; */
+    /* text-align: center; */
+    width: 50%;
+    padding: 20px;
+    /* height: 100vh; */
+    /* vertical-align: middle; */
+    margin: 40px auto;
+}
+.two h2{
+    
+font-size: 20px;
+    
+/* margin-bottom: 15px; */
+    
+/* margin-top: 5px; */
+    
+/* padding: 22px; */
+}
+.two input{
+    padding: 10px;
+    margin-bottom: 10px;
+    /* display: block; */
+    /* justify-content: center; */
+}
+.two input[type="submit"]{
+    cursor: pointer;
+    /* font-size: 25px; */
+    transition: all 0.4s ease;
+}
+section{
+    height: 100vh;
+   
+}
+nav ul li a:hover{
+    color: #180101;
+}
+.two input[type="submit"]:hover{
+   box-shadow: 0 0 0 #483c3c;  
+}
+.two input[value="Register"]{color: #63f00b;transition: all 0.4s ease;}
+.two input[value="Register"]:hover{
+ color: #d2ae7e;
+}
+.two p{}
+.two h6{
+    margin-bottom: 20px;
+}
+.form a{}
+.content img{
+    width: 500px;
+    height: 100%;
+}
+h4{
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
+}
